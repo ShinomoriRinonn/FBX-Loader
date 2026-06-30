@@ -403,7 +403,6 @@ bool FbxLoader::LoadMesh(
 	std::vector<uint32_t>& outIndexVector,
 	std::vector<Material>* outMaterial)
 {
-	fileName = fileName + ".cmesh";
 	std::ifstream fileIn(fileName);
 
 	uint32_t vertexSize, indexSize;
